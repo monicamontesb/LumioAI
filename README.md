@@ -1,69 +1,69 @@
-# React + TypeScript + Vite
+# LumioAI
+![Beta](https://img.shields.io/badge/status-beta-yellow)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+LumioAI – AI-powered learning assistant frontend built with React and Tailwind CSS.  
+A sleek, minimalist, and motivating interface designed to help users explore, learn, and generate personalized learning plans 🙂.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
+- [About the Project](#about-the-project)
+- [Features](#features)
+- [Technologies](#technologies)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Beta / Development Stage](#beta--development-stage)
+- [About the Author](#about-the-author)
+- [License](#license)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## About the Project
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+LumioAI is a modern frontend application for an AI-powered learning assistant.  
+It provides users with:
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+- An interactive **AskForm** to ask questions to the AI.
+- A **Personalized LearningPlan generator** to guide their learning journey.
+- A motivational and visually pleasing user interface with animated hero section and feature icons.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### Screenshots
+![LumioAI Hero](screenshots/overview.png)  
+![AskForm and LearningPlan Example](screenshots/cards.png)
+![LumioAI Logo](screenshots/logo.png)  
+![Signature](screenshots/signature.png)  
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+The goal is to make learning enjoyable and intuitive while showcasing modern frontend technologies and design trends of 2025.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Features
+
+- Ask questions and get AI-powered answers.
+- Generate a personalized learning plan based on your role (Developer / Analyst).
+- Responsive, clean, and modern design with Tailwind CSS.
+- Hero section with animated backgrounds and interactive feature icons.
+
+### Screenshots (Optional)
+![LearningPlan Example](screenshots/learningplan.png)
+
+---
+
+## Technologies
+
+- React
+- Tailwind CSS
+- Vite
+- JavaScript
+- Lucide Icons
+
+---
+
+## Getting Started
+
+To run LumioAI locally:
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/monicamontesb/LumioAI.git
