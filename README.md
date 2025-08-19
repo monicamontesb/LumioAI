@@ -56,9 +56,7 @@ The goal is to make learning enjoyable and intuitive while showcasing modern fro
 - Lucide Icons
 
 ---
-¡Perfecto, Moni! 😄 Aquí tienes **todo desde Getting Started hasta License**, con todos los títulos y secciones completos en un solo bloque listo para copiar:
 
-````markdown
 ## Getting Started
 
 To run LumioAI locally:
