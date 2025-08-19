@@ -1,4 +1,4 @@
-# LumioAI
+# LumioAI 🔆
 ![Beta](https://img.shields.io/badge/status-beta-yellow)
 
 LumioAI – AI-powered learning assistant frontend built with React and Tailwind CSS.  
