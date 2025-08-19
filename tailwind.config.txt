@@ -1,0 +1,15 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}"
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
+> content → le dice a Tailwind dónde buscar clases CSS en tus archivos para generar el CSS final.
+> theme.extend → permite agregar colores, fuentes o estilos personalizados (no usamos ahora, pero podemos extender).
+> plugins → si quisieras plugins de Tailwind (forms, typography, etc.).

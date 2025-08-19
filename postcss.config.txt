@@ -1,0 +1,10 @@
+module.exports = {
+  plugins: {
+    '@tailwindcss/postcss': {},
+    autoprefixer: {},
+  },
+}
+
+> PostCSS permite procesar CSS moderno.
+> tailwindcss → genera las clases CSS de Tailwind.
+> autoprefixer → añade automáticamente prefijos de navegador (-webkit-, -moz-, etc.) para compatibilidad.
